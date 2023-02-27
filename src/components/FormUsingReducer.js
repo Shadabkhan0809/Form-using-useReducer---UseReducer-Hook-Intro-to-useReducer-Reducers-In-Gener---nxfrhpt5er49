@@ -38,6 +38,7 @@ const FormUsingReducer = () => {
     }
     
     return (
+        
         <form id="reducer-form" onSubmit={onFormSubmit}>
             <label htmlFor="name">Name </label>
             <input type="text" id="name" value={formState["name"]} onChange={onInput} />

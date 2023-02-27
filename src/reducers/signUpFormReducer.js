@@ -30,6 +30,7 @@ const signUpFormReducer = (state, action) => {
                 ...state,
                 consent: !state.consent
             }
+            
         default:
             break;
     }
